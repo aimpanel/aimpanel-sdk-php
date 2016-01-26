@@ -1,5 +1,6 @@
 {
     "name": "aimpanel/aimpanel-sdk-php",
+    "description": "Aimpanel PHP SDK",
     "homepage": "http://aimpanel.pro",
     "type": "library",
     "license": "MIT",

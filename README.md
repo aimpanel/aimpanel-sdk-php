@@ -4,7 +4,9 @@ Ready to use functions for integration with http://aimpanel.pro
 
 ## Installation
 
-TODO
+```bash
+composer require aimpanel/aimpanel-sdk-php
+```
 
 ## How to use
 
