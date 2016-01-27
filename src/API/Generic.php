@@ -20,11 +20,16 @@ trait Generic
         return $this->client->http_json("GET", "services/" . $this->service, []);
     }
 
+    function info($id)
+    {
+        return $this->client->http_json("GET", "services/" . $this->service . "/" . $id . "/info", []);
+    }
+
     function turn_on($id)
     {
         return $this->client->http_json("GET", "services/" . $this->service . "/" . $id . "/start", []);
     }
-    
+
     function restart($id)
     {
         return $this->client->http_json("GET", "services/" . $this->service . "/" . $id . "/restart", []);
